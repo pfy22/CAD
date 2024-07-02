@@ -3,7 +3,7 @@ import os
 from PIL import Image
 
 def svg_to_png(root):
-    # 获取文件夹下所有子文件，并制成list
+    
     svg_files = os.listdir(root)
     
     for svg_file in svg_files:
